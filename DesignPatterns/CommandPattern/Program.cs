@@ -42,7 +42,7 @@ namespace CommandPattern
         }
     }
 
-
+    //Receiver knows how to perform actions
     class FileManager 
     {
         public void Create() 
@@ -58,28 +58,43 @@ namespace CommandPattern
             }
         } 
     }
-   
 
+    //Invoker
+    class Invoker 
+    {
+        ICommand CreateCommand;
+        ICommand WriteCommand;
+
+        public Invoker(ICommand writeCommand, ICommand createCommand)
+        {
+            WriteCommand = writeCommand;
+            CreateCommand = createCommand;
+        }
+        public void Write() 
+        {
+            WriteCommand.Execute();
+        }
+        public void Create()
+        {
+            CreateCommand.Execute();
+        }
+
+    }
 
 
 
     class Program
     {
         static void Main(string[] args)
-        {
+        {            
             var fileman = new FileManager();
+            
             List<ICommand> commands = new List<ICommand>();
-            commands.Add(new CreateCommand(fileman));
-            var x = 10;
-            Iteration:
-            if (x > 0)
-            {
-                commands.Add(new WriteCommand(fileman, "test"));
-                x--;
-                goto Iteration;
-            }
 
-            commands.ForEach(x => x.Execute());
+            Invoker inv = new Invoker(new WriteCommand(fileman, "test"),new CreateCommand(fileman));
+
+            inv.Create();
+            inv.Write();
 
         }
     }
