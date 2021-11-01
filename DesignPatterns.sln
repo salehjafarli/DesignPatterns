@@ -5,23 +5,29 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "DesignPatterns\AdapterPattern\AdapterPattern.csproj", "{6C2ACA5D-7F4B-432F-9BBD-31E95B61E9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "DesignPatterns\AdapterPattern\AdapterPattern.csproj", "{6C2ACA5D-7F4B-432F-9BBD-31E95B61E9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "DesignPatterns\BridgePattern\BridgePattern.csproj", "{1C47B8D8-5CA8-40B1-8F71-D40E8FCFE23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "DesignPatterns\BridgePattern\BridgePattern.csproj", "{1C47B8D8-5CA8-40B1-8F71-D40E8FCFE23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "DesignPatterns\BuilderPattern\BuilderPattern.csproj", "{082CCC44-C881-437D-AC37-311D5F00B27B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "DesignPatterns\BuilderPattern\BuilderPattern.csproj", "{082CCC44-C881-437D-AC37-311D5F00B27B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainofResponsibilityPattern", "DesignPatterns\ChainofResponsibilityPattern\ChainofResponsibilityPattern.csproj", "{52CE19CA-91ED-4486-B34A-15287170B7B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainofResponsibilityPattern", "DesignPatterns\ChainofResponsibilityPattern\ChainofResponsibilityPattern.csproj", "{52CE19CA-91ED-4486-B34A-15287170B7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "DesignPatterns\CommandPattern\CommandPattern.csproj", "{8F381430-67AB-499A-A960-99F1BBC99B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "DesignPatterns\CommandPattern\CommandPattern.csproj", "{8F381430-67AB-499A-A960-99F1BBC99B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "DesignPatterns\CompositePattern\CompositePattern.csproj", "{1796A150-1D6B-4B35-A9EF-98BC9043A579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "DesignPatterns\CompositePattern\CompositePattern.csproj", "{1796A150-1D6B-4B35-A9EF-98BC9043A579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DesignPatterns\DecoratorPattern\DecoratorPattern.csproj", "{2B4105B9-FFFA-46CA-9488-61798AEF54C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DesignPatterns\DecoratorPattern\DecoratorPattern.csproj", "{2B4105B9-FFFA-46CA-9488-61798AEF54C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "DesignPatterns\FacadePattern\FacadePattern.csproj", "{818FEB0A-F292-4362-B4E8-FD8943063CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "DesignPatterns\FacadePattern\FacadePattern.csproj", "{818FEB0A-F292-4362-B4E8-FD8943063CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeightPattern", "DesignPatterns\FlyWeightPattern\FlyWeightPattern.csproj", "{763DD143-9D01-4DC7-9650-354B7B5E94DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWeightPattern", "DesignPatterns\FlyWeightPattern\FlyWeightPattern.csproj", "{763DD143-9D01-4DC7-9650-354B7B5E94DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "DesignPatterns\InterpreterPattern\InterpreterPattern.csproj", "{994535B8-6F7F-498C-B19F-D93B1FE3F8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "DesignPatterns\MediatorPattern\MediatorPattern.csproj", "{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "DesignPatterns\MementoPattern\MementoPattern.csproj", "{64B91179-E2CC-4A20-9108-A024CB09DC84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +71,18 @@ Global
 		{763DD143-9D01-4DC7-9650-354B7B5E94DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763DD143-9D01-4DC7-9650-354B7B5E94DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763DD143-9D01-4DC7-9650-354B7B5E94DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994535B8-6F7F-498C-B19F-D93B1FE3F8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994535B8-6F7F-498C-B19F-D93B1FE3F8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994535B8-6F7F-498C-B19F-D93B1FE3F8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994535B8-6F7F-498C-B19F-D93B1FE3F8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B91179-E2CC-4A20-9108-A024CB09DC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B91179-E2CC-4A20-9108-A024CB09DC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B91179-E2CC-4A20-9108-A024CB09DC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B91179-E2CC-4A20-9108-A024CB09DC84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +97,9 @@ Global
 		{2B4105B9-FFFA-46CA-9488-61798AEF54C9} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
 		{818FEB0A-F292-4362-B4E8-FD8943063CC5} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
 		{763DD143-9D01-4DC7-9650-354B7B5E94DD} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
+		{994535B8-6F7F-498C-B19F-D93B1FE3F8A9} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
+		{D509A967-B82E-4A94-AF65-3DF4B5E8A4CC} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
+		{64B91179-E2CC-4A20-9108-A024CB09DC84} = {A72FF0A9-A083-4731-9C5D-DD76C0CE0CE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {793D474C-51FA-423C-976C-E5DAE5BD8078}
