@@ -90,6 +90,9 @@ namespace DecoratorPattern
             Console.WriteLine("With decorator:");
             dec.Create();
             dec.GetAll();
+
+
+            //NOTE - Decorator pattern has similary syntax
         }
     }
 }

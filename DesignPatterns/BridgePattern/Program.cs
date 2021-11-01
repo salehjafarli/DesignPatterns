@@ -110,6 +110,10 @@ namespace BridgePattern
             sender = new Kafka(message);
             sender.Sender = new JsonSender();
             sender.Send();
+
+
+
+            //NOTE - State pattern has similar syntax as well
         }
     }
 }
